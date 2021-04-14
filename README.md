@@ -1,6 +1,8 @@
 # discord.js-bot-starter
 Learn how to make your own Discord bot using discord.js
 
+![Discord](https://1000logos.net/wp-content/uploads/2021/04/Discord-logo.png)  
+
 ## Get Started  
 1. Download Visual Studio Code
 https://code.visualstudio.com/download
