@@ -3,7 +3,7 @@
 const discord = require("discord.js");
 const client = new discord.Client();
 
-const prefix = "!"
+const prefix = "!" // Prefix
 
 client.on("ready", () => {
     console.log(client.user.username + " is ready!");
@@ -16,6 +16,7 @@ client.on("message", async (message) => {
     const args = message.content.substring(prefix.length, message.content.length).split(" ")
     const command = args[0];
     args.shift()
+    
     if (command == "ping") {
         return message.channel.send("pong!");
     } else if(command == "say") {
@@ -23,4 +24,4 @@ client.on("message", async (message) => {
     }
 })
 
-client.login("ODMxODAxNzc4OTc4NDIyNzg0.YHahxg.Qzz6CwR8w83uuHvYRIxUOIfwExI") // bot token
+client.login("TOKEN") // bot token
