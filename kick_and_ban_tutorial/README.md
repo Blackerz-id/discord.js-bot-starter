@@ -18,5 +18,5 @@ npm install discord.js
 node index.js
 ```  
 
-![example kick command](https://i.gyazo.com/7cb6e36dbf7ec28676653c014ae8270a.png)  
+![example kick command](https://i.gyazo.com/888c41809cdd1da985e50622f2f03fde.png)  
 
